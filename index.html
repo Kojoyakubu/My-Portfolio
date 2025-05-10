@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>James | Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+  <nav class="glass-navbar">
+    <a href="./index.html" class="logo">
+      <svg class="logo-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M19 2H5C3.9 2 3 2.9 3 4V20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V4C21 2.9 20.1 2 19 2Z" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M9 7L7 9L9 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M15 7L17 9L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M10 15H14M10 18H17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="logo-text">
+        <span class="logo-name">James Anim Gyeke</span>
+        <span class="logo-tagline">Educator & Developer</span>
+      </span>
+    </a>
+    <button class="menu-toggle" aria-label="Menu">
+      <div class="hamburger"></div>
+    </button>
+    <div class="nav-links">
+      <a href="#about" class="nav-link"><i class="fas fa-user"></i><span>About</span><div class="link-underline"></div></a>
+      <a href="#skills" class="nav-link"><i class="fas fa-code"></i><span>Skills</span><div class="link-underline"></div></a>
+      <a href="#projects" class="nav-link"><i class="fas fa-laptop-code"></i><span>Projects</span><div class="link-underline"></div></a>
+      <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i><span>Contact</span><div class="link-underline"></div></a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle theme">
+      <i class="fas fa-moon"></i>
+    </button>
+    
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <img src="./Assets/images/profile.jpg" alt="James Anim Gyeke" class="profile-pic">
+        <div class="hero-text">
+          <h1>Hi, I'm <span>James Anim Gyeke</span></h1>
+          <p>| Educator | Web Developer | </p>
+          <a href="#projects" class="btn">See My Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm an educator-turned-software developer obsessed with answering one question: How can 
+        technology reveal the hidden 'aha!' moments in learning?
+
+        With a B.Ed in ICT and Mathematics from the University of Cape Coast, 
+        I’ve spent years reverse-engineering confusion – breaking down complex concepts into 
+        discoverable patterns. But here’s what fascinates me most: When students start asking 
+        questions I can’t answer, that’s where the real magic happens.
+      </p>
+
+      <p>My secret? I treat every lesson like a prototype and every codebase like a classroom:</p>
+        <ul>
+          <li>🔍 What if we could visualize math concepts through interactive React components?</li>
+        
+          <li>🤔 Why does this algorithm resonate with some learners but baffle others?</li>
+        
+          <li>🚀 How might ethical hacking principles make database security tangible for beginners?</li>
+        </ul>
+
+        <p>By day, I design learning experiences that spark these questions. By night, I build full-stack 
+          tools (React/Node.js/MongoDB) to test my theories – like that time I turned API design into a 
+          detective game for my students
+        </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+<section id="skills" class="skills">
+  <div class="container">
+    <h2>My Skills</h2>
+    
+    <!-- Teaching Skills -->
+    <div class="skills-category">
+      <h3><i class="fas fa-chalkboard-teacher"></i> Teaching & Mentorship</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fas fa-graduation-cap"></i>
+          <h4>Curriculum Design</h4>
+          <p>Creating structured learning paths for technical subjects.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-comments"></i>
+          <h4>Technical Communication</h4>
+          <p>Breaking down complex concepts for diverse audiences.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-users"></i>
+          <h4>Workshop Facilitation</h4>
+          <p>Interactive coding sessions and hackathons.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Full-Stack Development Skills -->
+<div class="skills-category">
+  <h3><i class="fas fa-layer-group"></i> Full-Stack Proficiency</h3>
+  <div class="skills-grid">
+    <!-- 1. Frontend -->
+    <div class="skill-card">
+      <div class="skill-header">
+        <i class="fab fa-react"></i>
+        <h4>Frontend</h4>
+      </div>
+      <p>React, Next.js, Tailwind</p>
+      <div class="skill-bar" style="--skill-color: #61DAFB;">
+        <div class="skill-level" style="width: 90%;"></div>
+      </div>
+    </div>
+
+    <!-- 2. Backend -->
+    <div class="skill-card">
+      <div class="skill-header">
+        <i class="fas fa-server"></i>
+        <h4>Backend</h4>
+      </div>
+      <p>Node.js, Express, Python</p>
+      <div class="skill-bar" style="--skill-color: #68A063;">
+        <div class="skill-level" style="width: 85%;"></div>
+      </div>
+    </div>
+
+    <!-- 3. Databases -->
+    <div class="skill-card">
+      <div class="skill-header">
+        <i class="fas fa-database"></i>
+        <h4>Databases</h4>
+      </div>
+      <p>MongoDB, PostgreSQL</p>
+      <div class="skill-bar" style="--skill-color: #47A248;">
+        <div class="skill-level" style="width: 80%;"></div>
+      </div>
+    </div>
+
+    <!-- 4. DevOps -->
+    <div class="skill-card">
+      <div class="skill-header">
+        <i class="fas fa-cloud"></i>
+        <h4>DevOps</h4>
+      </div>
+      <p>Docker, AWS, CI/CD</p>
+      <div class="skill-bar" style="--skill-color: #FF9900;">
+        <div class="skill-level" style="width: 75%;"></div>
+      </div>
+    </div>
+
+    <!-- 5. APIs -->
+    <div class="skill-card">
+      <div class="skill-header">
+        <i class="fas fa-plug"></i>
+        <h4>API Design</h4>
+      </div>
+      <p>REST, GraphQL, WebSockets</p>
+      <div class="skill-bar" style="--skill-color: #E535AB;">
+        <div class="skill-level" style="width: 88%;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Project 1</h3>
+          <p>The Dicee Game</p>
+          <a href="https://kojoyakubu.github.io/Dicee-game/" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 2</h3>
+          <p>Drum kits</p>
+          <a href="https://kojoyakubu.github.io/Drum-kits/" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <div class="social-links">
+        <a href="https://github.com/kojoyakubu"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/YOUR-TWITTER-USERNAME"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p>Email me at: <a href="mailto:quodjoyakubu@gmail.com">quodjoyakubu@gmail.com</a></p>
+      <p>Contact me: +233 247 964 743 | +233 204 313 653</p>
+    </div>
+  </section>
+  <footer>
+    <p>© 2024 James Anim Gyeke. All rights reserved.</p>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
